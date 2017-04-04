@@ -1,0 +1,21 @@
+{
+  "name": "cgp-template",
+  "authors": [
+    "prasanjeetd <prasanjeetdebnath@rocketmail.com>"
+  ],
+  "description": "Testing Splitter",
+  "main": "index.html",
+  "keywords": [
+    "splitter"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/jqwidgets/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <script type="text/javascript" src="bower_components/jqwidgets/scripts/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="bower_components/jqwidgets/scripts/demos.js"></script>
+    <script type="text/javascript" src="bower_components/jqwidgets/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="bower_components/jqwidgets/jqwidgets/jqxsplitter.js"></script>
+    <script type="text/javascript" src="bower_components/jqwidgets/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript" src="bower_components/jqwidgets/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="bower_components/jqwidgets/jqwidgets/jqxpanel.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#mainSplitter').jqxSplitter(
+                {
+                    width: '100%',
+                    height: 300,
+                    panels: [{ size: '50%' }],
+                    splitBarSize: 15,
+                    theme: 'energyblue'
+                });
+        });
+    </script>
+
+    <link href="style.css" rel="stylesheet"></link>
+</head>
+
+<body>
+
+    <div class="container">
+        <header id="header">
+            <h1>CGP Slider Template </h1>
+            <header>
+                <nav> Navigation Bar</nav>
+
+                <article id="mainSplitter">
+                    <section class="splitter-panel">
+                        Panel 1</section>
+                    <section class="splitter-panel">
+                        Panel 2</section>
+                </article>
+
+                <article>
+                    <section id="left">Left </section>
+                    <section id="right"> Right </section>
+                </article>
+
+                <footer>Footer</footer>
+    </div>
+</body>
+
+</html>
